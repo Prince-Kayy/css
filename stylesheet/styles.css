@@ -1,0 +1,149 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.container {
+    flex-direction: column;
+    width: 350px;
+    background: #fff;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+img {
+    width: inherit;
+    border-radius: 15px 15px 0 0;
+    /* background: inherit; */
+}
+
+.order_summary {
+    /* flex-direction: column; */
+    padding: 0 2em;
+    /* width: inherit; */
+    font-weight: 900px;
+    border-radius: 0 0 15px 15px;
+}
+
+.statement {
+    padding: 0 1.5em;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+    font: size 2em;
+    color: hsl(225, 8%, 29%);
+    padding: 0 20px;
+    border-bottom: 0px;
+}
+
+h3 {
+    font-size: 16px;
+    color: hsl(225, 8%, 29%);
+    margin: 0%;
+}
+
+.info_button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background: hsl(225, 100%, 98%);
+    height: 70px;
+    border-radius: 15px;
+}
+
+.info_button img {
+    height: 48px;
+    padding: 12px 0;
+}
+
+.button_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 48;
+}
+
+.price {
+    margin: 0;
+    padding-top: 5px;
+}
+
+.change_order {
+    width: 100px;
+    display: flex;
+    justify-content: right;
+    height: 48px;
+    padding: 10px 0;
+}
+
+.change_order a {
+    padding: 15px 0;
+}
+
+.payment_button {
+    display: flex;
+    background-color: hsl(245, 75%, 52%);
+    justify-content: center;
+    height: 40px;
+    margin: 12.5px 0;
+    border-radius: 15px;
+    box-shadow: 0px 15px 10px hsl(225, 100%, 90%);
+}
+
+.payment_button p {
+    color: white;
+    align-content: center;
+    margin: 12.5px 0px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.cancel_button {
+    margin-top: 1em;
+}
+
+.cancel_button a {
+    color: hsl(224, 23%, 55%);
+}
+
+.change_order a:hover {
+    text-decoration: none;
+}
+
+.payment_button:hover {
+    background-color: hsl(241, 90%, 61%);
+}
+
+.cancel_button a:hover {
+    font-weight: 550;
+    color: hsl(225, 8%, 29%);
+}
