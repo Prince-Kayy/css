@@ -168,6 +168,9 @@ h3 {
     .container {
         max-width: 85%;
     }
+    img {
+        max-width: inherit;
+    }
     body {
         background-image: url("pattern-background-mobile.svg");
     }
