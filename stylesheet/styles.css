@@ -165,6 +165,9 @@ h3 {
     header {
         max-width: 85%;
     }
+    img {
+        width: fit-content;
+    }
     body {
         background-image: url("pattern-background-mobile.svg");
     }
