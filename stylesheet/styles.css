@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
-* {
+html {
     box-sizing: border-box;
 }
 
@@ -76,7 +76,7 @@ h3 {
 }
 
 .info_button img {
-    height: 48px;
+    size: 48px;
     padding: 12px 0;
 }
 
