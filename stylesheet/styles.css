@@ -108,7 +108,7 @@ h3 {
 }
 
 .change_order {
-    width: 100px;
+    max-width: 100px;
     display: flex;
     justify-content: right;
     height: 48px;
