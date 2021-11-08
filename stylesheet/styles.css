@@ -162,7 +162,7 @@ h3 {
 }
 
 @media screen and (max-width:425px) {
-    .container {
+    header {
         max-width: 85%;
     }
     body {
