@@ -161,12 +161,12 @@ h3 {
     color: hsl(225, 8%, 29%);
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:400px) {
     header {
-        max-width: 85%;
+        max-width: 75%;
     }
     .container {
-        max-width: 85%;
+        max-width: 75%;
     }
     img {
         max-width: inherit;
