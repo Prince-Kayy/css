@@ -1,4 +1,5 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
     box-sizing: border-box;
 }
 
@@ -48,22 +49,18 @@ img {
 }
 
 p {
-    font-size: 16px;
     color: hsl(224, 23%, 55%);
     text-align: center;
 }
 
 h2 {
     text-align: center;
-    font-weight: 900;
-    font: size 2em;
     color: hsl(225, 8%, 29%);
     padding: 0 20px;
     border-bottom: 0px;
 }
 
 h3 {
-    font-size: 16px;
     color: hsl(225, 8%, 29%);
     margin: 0%;
 }
@@ -146,4 +143,19 @@ h3 {
 .cancel_button a:hover {
     font-weight: 550;
     color: hsl(225, 8%, 29%);
+}
+
+@media screen and(max-width: 425px) {
+    body {
+        background-image: url("pattern-background-desktop.svg");
+    }
+    h2 {
+        font-size: 23px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 12px;
+    }
 }
