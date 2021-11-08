@@ -30,7 +30,7 @@ header {
 
 .container {
     flex-direction: column;
-    max-width: 450px;
+    max-width: inherit;
     background: #fff;
     justify-content: center;
     align-items: center;
