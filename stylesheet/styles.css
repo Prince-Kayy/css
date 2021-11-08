@@ -163,13 +163,10 @@ h3 {
 
 @media screen and (max-width:400px) {
     header {
-        max-width: 75%;
+        max-width: 85%;
     }
     .container {
-        max-width: 75%;
-    }
-    img {
-        max-width: inherit;
+        max-width: 85%;
     }
     body {
         background-image: url("pattern-background-mobile.svg");
